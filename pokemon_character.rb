@@ -2,6 +2,9 @@
 # includes definition of a Pokemon (required typing, attack_power, health_points, etc.)
 
 class Pokemon
+	# attr_reader makes private instance variables avilable by a public accessor method
+	attr_reader :name, :type, :health_points, :attack_power 
+
 	def initialize(name, type, health_points, attack_power)
 		# use these parameters to create 'instance' variables
 		# there will be multiple Pokemon, so each individual instance of a Pokemon is separate
@@ -11,8 +14,8 @@ class Pokemon
 		@attack_power = attack_power
 	end
 
-	def pokemon_info
-		# use the instance variables ~ @
-		puts "#{@name} is a #{@type} type Pokemon with #{@health_points} HP and #{@attack_power} attack power."
-	end
+	#def pokemon_info
+	#	# use the instance variables ~ @
+	#	puts "#{@name} is a #{@type} type Pokemon with #{@health_points} HP and #{@attack_power} attack power."
+	#end
 end
