@@ -28,6 +28,7 @@ end
 
 
 
+<<<<<<< HEAD
 # TEST - TODO: move this to a dedicated unit test file
 
 #pikachu = Pokemon.new("Pikachu", "Electric", 24, 31)
@@ -39,3 +40,16 @@ end
 #alex = Player.new("Alex", alex_party)
 
 #alex.player_info
+=======
+# TEST
+
+pikachu = Pokemon.new("Pikachu", "Electric", 24, 31)
+bulbasaur = Pokemon.new("Bulbasaur", "Grass", 43, 19)
+charmander = Pokemon.new("Charmander", "Fire", 32, 51)
+squirtle = Pokemon.new("Squirtle", "Water", 56, 22)
+
+alex_party = [pikachu, squirtle, charmander, bulbasaur]
+alex = Player.new("Alex", alex_party)
+
+alex.player_info
+>>>>>>> 111107bcf389a35116b86bc551c7eac4ef10e6e5
