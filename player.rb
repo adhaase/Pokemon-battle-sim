@@ -7,7 +7,8 @@ require_relative 'pokemon_character.rb'
 class Player
 	def initialize(name, party) # ctor
 		# instance variables 
-		@name = name
+		@name = name # string
+		# party is an array of Pokemon objects (TODO - but I don't define the party below as an array []?)
 		@party = party # max of 6 Pokemon can be in one party (contains Pokemon objects)
 	end
 
