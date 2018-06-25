@@ -4,7 +4,6 @@
 require_relative 'pokemon_character.rb'
 require_relative 'player.rb'
 
-<<<<<<< HEAD
 # A Pokemon battle is a 2-player event, where each player is allowed six (6) Pokemon.
 # The battle concludes when all of one players Pokemon are unable to battle
 # - unable to battle = all Pokemon HP == 0.
@@ -18,10 +17,9 @@ class PkmnBattle
 		return pkmn1_HP
 	end
 
+	# Battle between two Pokemon, the first Pokemon whos health == 0 loses.
 	def battle(pkmn1, pkmn2)
 
 	end
 end
-=======
->>>>>>> 111107bcf389a35116b86bc551c7eac4ef10e6e5
 
