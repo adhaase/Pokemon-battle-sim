@@ -1,9 +1,11 @@
 # pokemon_character.rb
-# includes definition of a Pokemon (required typing, attack_power, health_points, etc.)
+# includes definition of a 'specific' Pokemon (required typing, attack_power, health_points, etc.)
+# full party implementation is based in pokemon_party.rb
 
 class Pokemon
 	# attr_reader makes private instance variables avilable by a public accessor method
-	attr_reader :name, :type, :health_points, :attack_power 
+	# attr_accessor includes getters & setters for private instance variables
+	attr_accessor :name, :type, :health_points, :attack_power 
 
 	def initialize(name, type, health_points, attack_power)
 		# use these parameters to create 'instance' variables

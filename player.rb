@@ -20,8 +20,6 @@ class Player
 
 	def player_info # prints player name and party
 		puts "Player name: #{@name}"
-		#print "Party size: "
-		#puts @party.length
 		print_party
 	end
 end

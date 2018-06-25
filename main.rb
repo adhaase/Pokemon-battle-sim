@@ -12,4 +12,6 @@ charmander = Pokemon.new("Charmander", "Fire", 32, 51)
 squirtle = Pokemon.new("Squirtle", "Water", 56, 22)
 
 battle = PkmnBattle.new
-battle.health_point_recalculation(pikachu, bulbasaur)
+# battle.health_point_recalculation(pikachu, bulbasaur)
+
+battle.pkmn_battle(pikachu, squirtle)
