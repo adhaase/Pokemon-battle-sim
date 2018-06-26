@@ -5,6 +5,8 @@
 require_relative 'pokemon_character.rb'
 
 class Player
+	attr_accessor :name, :party
+	
 	def initialize(name, party) # ctor
 		# instance variables 
 		@name = name # string

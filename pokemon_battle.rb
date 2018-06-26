@@ -57,14 +57,14 @@ end
 
 # TEST
 
-pikachu = Pokemon.new("Pikachu", "Electric", 24, 31)
-bulbasaur = Pokemon.new("Bulbasaur", "Grass", 43, 19)
+#pikachu = Pokemon.new("Pikachu", "Electric", 24, 31)
+#bulbasaur = Pokemon.new("Bulbasaur", "Grass", 43, 19)
 
-battle = PkmnBattle.new
+#battle = PkmnBattle.new
 #pikachu_health_bool = battle.validate_pkmn_health(pikachu)
 #puts pikachu_health_bool
 #pikachu.health_points = -1
 #pikachu_health_bool = battle.validate_pkmn_health(pikachu)
 #puts pikachu_health_bool
 
-battle.pkmn_battle(pikachu, bulbasaur)
+#battle.pkmn_battle(pikachu, bulbasaur)
