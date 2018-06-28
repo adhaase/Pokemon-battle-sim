@@ -3,7 +3,7 @@
 # full party implementation is based in pokemon_party.rb
 
 class Pokemon
-	# attr_reader makes private instance variables avilable by a public accessor method
+	# attr_reader makes private instance variables available by a public accessor method
 	# attr_accessor includes getters & setters for private instance variables
 	attr_accessor :name, :type, :health_points, :attack_power 
 
