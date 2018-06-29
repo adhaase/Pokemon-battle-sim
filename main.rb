@@ -4,12 +4,13 @@ require_relative 'menu.rb'
 require_relative 'pokemon_character.rb'
 require_relative 'pokemon_battle.rb'
 
-# main
+# main()
 header
-
 player = ""
-
 trainer_greeting(player)
+
+# print usable Pokemon
+print_usable_pokemon
 
 # name, type, health_points, attack_power
 

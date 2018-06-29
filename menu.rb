@@ -23,7 +23,9 @@ end
 
 def print_usable_pokemon
 	puts "There's lots of Pokemon here to choose from, pick six of your favorites!"
-
+	col = PokemonCollection.new
+	all_pkmn = col.pokemon_collection
+	col.print_pkmn_collection(all_pkmn)
 	
 end
 

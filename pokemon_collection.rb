@@ -32,7 +32,7 @@ class PokemonCollection
 end
 
 
-col = PokemonCollection.new
-all_pkmn = col.pokemon_collection
+#col = PokemonCollection.new
+#all_pkmn = col.pokemon_collection
 
-col.print_pkmn_collection(all_pkmn)
+#col.print_pkmn_collection(all_pkmn)
