@@ -16,7 +16,7 @@ class Player
 
 	def print_party # a player knows the Pokemon party, no need to pass argument
 		@party.each do |pkmn|
-			puts "Name: #{pkmn.name} | Type: #{pkmn.type} | HP: #{pkmn.health_points} | ATK: #{pkmn.attack_power}"
+			puts "#{pkmn.name} | Type: #{pkmn.type} | HP: #{pkmn.health_points} | ATK: #{pkmn.attack_power}"
 		end
 	end
 

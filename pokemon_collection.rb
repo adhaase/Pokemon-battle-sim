@@ -25,8 +25,10 @@ class PokemonCollection
 	end
 
 	def print_pkmn_collection(collection)
+		poke_num = 0 # TODO: check if there's a way to print out the index based on the below loop, rather than allocating another variable to do so
 		collection.each do |pkmn|
-			puts "Name: #{pkmn.name} | Type: #{pkmn.type} | HP: #{pkmn.health_points} | ATK: #{pkmn.attack_power}"
+			puts "#{poke_num}. #{pkmn.name} | Type: #{pkmn.type} | HP: #{pkmn.health_points} | ATK: #{pkmn.attack_power}"
+			poke_num += 1
 		end
 	end
 end
