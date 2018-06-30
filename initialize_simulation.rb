@@ -1,5 +1,5 @@
-# menu.rb
-# Includes: menu titles and basic UI
+# initialize_simulation.rb
+# Includes: menu titles and Trainer/Party initializations
 
 require_relative 'player.rb'
 require_relative 'pokemon_character.rb'
@@ -35,9 +35,11 @@ def trainer_party_selection(name) # conducts the Pokemon selection process and p
 	all_pkmn = pkmn_col.pokemon_collection # the array of all of the available Pokemon
 
 	trainer_party = []
+	sequence = ["first", "second", "third", "fourth", "fifth", "sixth (and final!)"]
 	trainer = Player.new(name, trainer_party)
+
 	for x in 0..5 # there are 6 Pokemon in a Party
-		print "Please select a Pokemon from the above list: "
+		print "Please select your #{sequence[x]} Pokemon from the above list: "
 		pokemon_num = gets
 		if (pokemon_num.to_i < 0 || pokemon_num.to_i > 7)
 			puts "ERROR: please enter an integer between 0 and 7!"
@@ -52,5 +54,6 @@ def trainer_party_selection(name) # conducts the Pokemon selection process and p
 	puts "\n"
 	puts "That team is looking solid! Here are the Pokemon you chose!"
 	trainer.print_party
+	puts "\n"
 	return trainer
 end
