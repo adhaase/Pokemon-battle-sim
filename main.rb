@@ -9,4 +9,4 @@ require_relative 'simulate.rb'
 
 # main()
 
-simulate
+simulate # runs the entire simulation
