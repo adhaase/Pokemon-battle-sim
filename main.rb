@@ -9,4 +9,4 @@ require_relative 'simulate.rb'
 
 # main()
 
-simulate # runs the entire simulation
+simulate # runs the entire simulation - TODO: not sure if this is 'good' Ruby style. In C++ having a minimal main function would be optimal, not too sure about Ruby. Look into this.
