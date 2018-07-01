@@ -10,4 +10,5 @@ As of now, the basic battle system for a 1v1 scenario is in place, as well as Po
 I plan to add the following features: 
 * Pokémon counters based on type
 * Items 
+* A "speed" trait, rather than always having the user's party attack first. 
 * A more *intelligent* automated decision making process based on the above two features. 
